@@ -9,9 +9,11 @@ const Workouts = () => {
     const {workouts, dispatch} = useWorkoutsContext()
     const { user } = useAuthContext()
     
+    const serverURL = "https://workout-tracker-backend-r7sd.onrender.com/"
+
     useEffect(() => {
         const fetchWorkouts = async () => {
-            const response = await fetch('/api/workouts', {
+            const response = await fetch(`${serverURL}/api/workouts`, {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }

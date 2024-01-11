@@ -10,6 +10,8 @@ const WorkoutForm = () => {
     const [reps, setReps] = useState('')
     const [error, setError] = useState(null)
     const [emptyFields, setEmptyFields] = useState([])
+
+    const serverURL = "https://workout-tracker-backend-r7sd.onrender.com/"
     
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -21,7 +23,7 @@ const WorkoutForm = () => {
 
         const workout = {title, load, reps}
 
-        const response = await fetch('/api/workouts', {
+        const response = await fetch(`${serverURL}/api/workouts`, {
             method: 'POST',
             body: JSON.stringify(workout),
             headers: {
