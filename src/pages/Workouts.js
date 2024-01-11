@@ -13,7 +13,7 @@ const Workouts = () => {
 
     useEffect(() => {
         const fetchWorkouts = async () => {
-            const response = await fetch(`${serverURL}/api/workouts`, {
+            const response = await fetch('https://workout-tracker-backend-r7sd.onrender.com/api/workouts', {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }

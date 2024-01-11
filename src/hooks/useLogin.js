@@ -12,7 +12,7 @@ export const useLogin = () => {
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch(`${serverURL}/api/user/login`, {
+        const response = await fetch('https://workout-tracker-backend-r7sd.onrender.com/api/user/login', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({email, password})
