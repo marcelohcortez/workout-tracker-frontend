@@ -1,5 +1,5 @@
 {
-  "proxy": "https://workout-tracker-backend-r7sd.onrender.com:10000",
+  "proxy": "https://workout-tracker-backend-r7sd.onrender.com",
   "name": "workout-tracker-frontend",
   "version": "0.1.0",
   "private": true,
