@@ -14,12 +14,9 @@ To log in the live project use the following credentials:
 ## Tech & 3rd party used in the project:
 - [React](https://nodejs.org/)
 - [react-router-dom](https://expressjs.com/)
-- [Nodemon](https://www.npmjs.com/package/nodemon)
-- [Mongoose](https://mongoosejs.com/)
 
 ## Services & tools used in the project
 - [Vercel](https://vercel.com/)
-- [MongoDB](https://www.mongodb.com/)
 
 # How to run the project:
 - Clone the repository
