@@ -21,6 +21,7 @@ To log in the live project use the following credentials:
 
 # How to run the project:
 - Clone the repository
+- Remove all the 'serverURL' constants or change it's value for whatever you need
 - On package.json file, change the "proxy" value to you backend address to avoid CORS issues
 
 Start the project with:
